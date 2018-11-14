@@ -1,0 +1,46 @@
+.inside{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+}
+.outside{
+	display: flex;
+	width: 800px;
+	height: 500px;
+}
+.data{
+	display: flex;
+	justify-content: space-around;
+}
+.alllikes{
+	display: flex;
+	margin-left: -41px;
+}
+.likes{
+	width: calc(100%/3);
+	background-color: grey;
+	margin-left: 1px;
+	height: 40px;
+	text-align: center;
+}
+.girlphoto{
+	width: 100%;
+	height: 100%;
+}
+.icon{
+	border-radius: 400px;
+	width: 95px;
+	height: 95px;
+	border: 5px grey solid;
+}
+body{
+	font-family: "Arial";
+	background-color: rgb(230,230,230);
+}
+body p{
+	color: grey;
+	font-size: 17px;
+}
