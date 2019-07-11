@@ -1,0 +1,311 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>DY Target-разработка сайтов и приложений</title>
+    <meta name="description" content="DY Target это команда опытных и креативных разработчиков и программистов. Мы создаем сайты, лендиинг страницы, мобильные приложения и десктопные приложения. Лучшие цены и хорошее качество"/>
+    <meta property="og:title" content="DY Target это команда опытных и креативных разработчиков и программистов. Мы создаем сайты, лендиинг страницы, мобильные приложения и десктопные приложения. Лучшие цены и хорошее качество" />
+    <meta property="og:description" content="DY Target это команда опытных и креативных разработчиков и программистов. Мы создаем сайты, лендиинг страницы, мобильные приложения и десктопные приложения. Лучшие цены и хорошее качество" />
+    <meta property="og:type" content="website" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa8f28d78c.js"></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: 'Rubik', sans-serif;
+            font-size: 23px;
+            
+        }
+        nav{
+            display: flex;
+            color: white;
+        }
+        .dytarget-sep{
+            flex: 1;
+        }
+        .dytarget-attr{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 0.8em;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        .dytarget-attr div{
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .dytarget-brand{
+            padding: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+        header{
+            background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./dytarget.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+        .dytarget-welcome{
+            text-align: center;
+            position: relative;
+            color: white;
+            margin-top: 100px;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 2s;
+        }
+        @-webkit-keyframes example {
+            from {margin-top: 0;}
+            to {margin-top: 100px;}
+        }
+
+        /* Standard syntax */
+        @keyframes example {
+            from {margin-top: 0;}
+            to {margin-top: 100px;}
+        }
+        .dytarget-welcome h1{
+            letter-spacing: 10px;
+            font-size: 3em;
+        } .dytarget-welcome h3{
+            letter-spacing: 2px;
+            font-size: 1.2em;
+        }
+        .dytarget-about{
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 50px;
+            letter-spacing: 2px;
+        }
+        .dytarget-contacts-button{
+            outline:none;
+            background: transparent;
+            border: 4px solid white;
+            color: white;
+            cursor: pointer;
+            width: 250px;
+            height: 50px;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+        .dytarget-go-down{
+            margin-top: 20vh;
+            cursor: pointer;
+        }
+        .dytarget-advantages{
+            padding-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+        .dytarget-advantages-element{
+            min-width: 300px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        .dytarget-title{
+            letter-spacing: 5px;
+        }
+        .dytarget-advantages-wr{
+            padding-top: 40px;
+            text-align: center;
+        }
+        .section{
+            color: black;
+        }
+        .dytarget-adv-title{
+            margin-top: 10px;   
+            letter-spacing: 3px;
+            font-weight: bolder;
+        }
+        .dytarget-uslugi{
+            background-color:honeydew;  
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dytarget-uslugi-target{
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+        .dytarget-partners{
+            color: black;
+            margin: 10px auto;
+            padding:50px 0;
+            text-align: center;
+        }
+        .dytarget-partners-icons{
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .dytarget-partners-icons div{
+            vertical-align: middle;
+            min-width: 250px;
+        }
+        .dytarget-contacts{
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;  
+        }
+        .dytarget-callback{
+            min-width: 300px;
+        }
+        .dytarget-callback form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            height: 50px;
+            border: 0px;
+            border-bottom: 2px solid black;
+            letter-spacing: 3px;
+            width: 300px;
+            outline: none;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        input::placeholder {
+           color: black;
+        }
+        .dytarget-contact-element{
+            min-width: 300px;
+        }
+        .dytarget-contact-element div{
+            margin-bottom: 20px;
+        }
+        .collapse-button{
+            display: none;
+        }
+        @media screen and (max-width:500px){
+            .dytarget-attr{
+                display: none;
+            }
+            .collapse-button{
+                display: block;
+            }
+        }
+      
+       
+    </style>
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <div class="dytarget-brand">DY Target</div>
+            <div class="dytarget-sep"></div>
+            <div class="dytarget-attr">
+                <div id="contacts">Контакты</div>
+                <div id="about">Про Нас</div>
+                <div id="uslugi">Услуги</div>
+            </div>
+            <div class="collapse-button"><i style="font-size: 2.4rem;padding: 15px;" class="fas fa-bars"></i></div>
+        </nav>
+        <div class="dytarget-welcome">
+            <h1>DY Target</h1>
+            <h3>Define Your Target <br>и мы поможем воплотить его в жизнь</h3>
+            <button class="dytarget-contacts-button">Контакты</button>
+            <div class="dytarget-go-down"><i class="fas fa-chevron-down fa-2x"></i></div>
+        </div>
+       
+    </header>
+    <div class="section">
+        <div class="dytarget-about">
+            <p>Мы команда опытных и умелых разработчиков которые вам помогут с созданием сайтов, лендингов, CRM систем, мобильных и десктопных приложений и т.д.
+                 Реализуем ваш проект с помощью современных решений и фрэймворков. Имеется хороший опыт работы. И у нас <strong>самые лучшие цены!</strong></p>
+        </div>
+        <div class="dytarget-advantages-wr">
+            <h2 class="dytarget-title">Наши Услуги</h2>
+            <div class="dytarget-advantages">
+                <div class="dytarget-advantages-element">
+                    <div class="dytarget-adv-icon"><i class="fas fa-sitemap fa-3x"></i></div>
+                    <div class="dytarget-adv-title">Сайты</div>
+                </div>
+                <div class="dytarget-advantages-element">
+                    <div class="dytarget-adv-icon"><i class="fas fa-mobile fa-3x"></i></div>
+                    <div class="dytarget-adv-title">Мобильные <br> приложения</div>
+                </div>
+                <div class="dytarget-advantages-element">
+                    <div class="dytarget-adv-icon"><i class="fas fa-desktop fa-3x"></i></div>
+                    <div class="dytarget-adv-title">Десктопные <br> приложения</div>
+                </div>
+                <div class="dytarget-advantages-element">
+                    <div class="dytarget-adv-icon"><i class="far fa-newspaper fa-3x"></i></div>
+                    <div class="dytarget-adv-title">Лендингы</div>
+                </div>
+                <div class="dytarget-advantages-element">
+                    <div class="dytarget-adv-icon"><i class="fas fa-users fa-3x"></i></div>
+                    <div class="dytarget-adv-title">CRM Системы</div>
+                </div>
+                <div class="dytarget-advantages-element">
+                    <div class="dytarget-adv-icon"><i class="fas fa-shopping-cart fa-3x"></i></div>
+                    <div class="dytarget-adv-title">Онлайн-магазины</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dytarget-uslugi">
+        <h2 class="dytarget-uslugi-title">Наши преимущества</h2>
+        <div class="dytarget-uslugi-list">
+            <div class="dytarget-uslugi-target"><i class="far fa-star fa-2x"></i> Качество</div>
+            <div class="dytarget-uslugi-target"><i class="far fa-user-circle fa-2x"></i> Индивидуальный подход</div>
+            <div class="dytarget-uslugi-target"><i class="fas fa-adjust fa-2x"></i> Профессионалы</div>
+            <div class="dytarget-uslugi-target"><i class="fas fa-vote-yea fa-2x"></i> Опыт работы</div>
+            <div class="dytarget-uslugi-target"><i class="fas fa-hand-holding-heart fa-2x"></i> Человечность</div>
+            <div class="dytarget-uslugi-target"><i class="fas fa-warehouse fa-2x"></i> Гарантия</div>
+        </div>
+    </div>
+    <div class="dytarget-partners">
+        <h2>Наши известные клиенты</h2>
+        <div class="dytarget-partners-icons">
+            <div><img src="./subaru (1).png" alt=""></div>
+            <div><img src="./hyundai.png" alt=""></div>
+            <div><img style="color: white;fill: white;" width="128px" height="128px" src="./sdu_only.svg" alt=""></div>
+        </div>
+    </div>
+    <div class="dytarget-contacts">
+        <div class="dytarget-callback">
+            <h2>Оставить заявку</h2>
+            <form action="">
+                <input type="text" placeholder="  Имя">
+                <input type="email" placeholder="  E-mail">
+                <input type="text" placeholder="  Телефон номера">
+                <input type="text"  placeholder="  Вопрос или сообщение">
+                <input style="background-color:black;color:white;cursor:pointer" value="Оставить заявку" type="submit">
+            </form>
+        </div>
+        <div class="dytarget-contact-element">
+            <h2>Контакты</h2>
+            <div>Телефон: +7(707)-363-63-32</div>
+            <div>E-mail: <a style="color:black;outline:none;text-underline-position: below;" href="mailto:dytarget@gmail.com">dytarget@gmail.com</a></div>
+        </div>
+    </div>
+    <footer style="background-color: black;text-align: center;color: white;margin: 0;padding: 20px 0;">
+        <p style="margin: 0 0;">DY Target 2019</p>
+    </footer>
+    <script defer>
+        document.getElementsByClassName('dytarget-go-down')[0].addEventListener('click',function(){window.scrollTo({top:700,left:0,behavior:'smooth'})})
+        document.getElementById("contacts").addEventListener('click',function(){window.scrollTo({top:2500,left:0,behavior:'smooth'})})
+        document.getElementsByClassName("dytarget-contacts-button")[0].addEventListener('click',function(){window.scrollTo({top:2500,left:0,behavior:'smooth'})})
+        document.getElementById("uslugi").addEventListener('click',function(){window.scrollTo({top:900,left:0,behavior:'smooth'})})
+        document.getElementById('about').addEventListener('click',function(){window.scrollTo({top:700,left:0,behavior:'smooth'})})
+
+    </script>
+</body>
+</html> 
